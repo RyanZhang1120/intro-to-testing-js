@@ -22,3 +22,7 @@ function isVowel(input) {
     return input === 'a' || input == 'e' || input == 'i' || input == 'o' || input == 'u'
         || input === 'A' || input == 'B' || input == 'I' || input == 'O' || input == 'U' || false;
 }
+
+function add(a, b) {
+    return Number(a) + Number(b);
+}
