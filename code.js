@@ -9,3 +9,16 @@ function sayHello(input) {
         return 'Hello, World!';
     }
 }
+
+function isFive(input) {
+    return input === 5;
+}
+
+function isEven(input) {
+    return input % 2 === 0;
+}
+
+function isVowel(input) {
+    return input === 'a' || input == 'e' || input == 'i' || input == 'o' || input == 'u'
+        || input === 'A' || input == 'B' || input == 'I' || input == 'O' || input == 'U' || false;
+}
